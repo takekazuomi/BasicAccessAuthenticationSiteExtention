@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>BasicAccessAuthentication</id>
+    <title>Http Basic Access Authentication Http Module</title>
+    <version>1.0.0</version>
+    <authors>Takekazu Omi</authors>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <projectUrl>https://github.com/takekazuomi/BasicAccessAuthentication</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Enable site with Basic authentication</description>
+    <iconUrl>http://kyrt.in</iconUrl>
+    <tags>SiteExtension</tags>
+    <packageTypes>
+      <packageType name="BasicAccessAuthentication" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file src="BasicAccessAuthentication.nuspec" target="content" />
+    <file src="HttpAuthentication.Modules\bin\Debug\net45\HttpAuthentication.Modules.dll" target="lib" />
+    <file src="applicationHost.xdt" target="content" />
+  </files>
+</package>
